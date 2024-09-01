@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #171110;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.device-monitor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.device-monitor-table th, .device-monitor-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.device-monitor-table th {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1b1a1a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
